@@ -1,0 +1,23 @@
+{
+  "name": "icon-font-plugin",
+  "version": "1.0.0",
+  "description": "Плагин для генерации шрифта из SVG иконок",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "webfont": "^11.2.26"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.27.3"
+  },
+  "keywords": ["icon-font", "plugin", "webfont"],
+  "author": "Tilek",
+  "license": "ISC"
+}
