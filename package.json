@@ -1,6 +1,6 @@
 {
   "name": "holiverse-icon-font-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin to generate icon fonts from SVG files",
   "main": "dist/index.js",
   "module": "dist/index.js",
