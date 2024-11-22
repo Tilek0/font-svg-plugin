@@ -1,5 +1,6 @@
 import postcss from 'rollup-plugin-postcss';
 import copy from 'rollup-plugin-copy';
+import commonjs from "@rollup/plugin-commonjs";
 
 export default {
     input: 'src/index.js',
@@ -8,6 +9,7 @@ export default {
         format: 'es',
     },
     plugins: [
+        commonjs(),
         postcss({
             extract: true,  // Извлекаем CSS в отдельный файл
             minimize: true, // Минимизируем CSS
