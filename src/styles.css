@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'my-custom-font';
+    src: url('./fonts/my-custom-font.woff2') format('woff2'),
+    url('./fonts/my-custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.my-custom-font {
+    font-family: 'my-custom-font' !important;
+}
