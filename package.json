@@ -1,23 +1,32 @@
 {
-  "name": "icon-font-plugin",
-  "version": "1.0.0",
-  "description": "Плагин для генерации шрифта из SVG иконок",
+  "name": "holiverse-icon-font-plugin",
+  "version": "1.0.2",
+  "description": "Plugin to generate icon fonts from SVG files",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "prepublishOnly": "yarn build"
+    "build": "rollup -c rollup.config.js"
   },
   "dependencies": {
+    "rollup-plugin-copy": "^3.5.0",
     "webfont": "^11.2.26"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
-    "rollup": "^4.27.3"
+    "postcss": "^8.4.49",
+    "rollup": "^4.27.3",
+    "rollup-plugin-postcss": "^4.0.2"
   },
-  "keywords": ["icon-font", "plugin", "webfont"],
+  "keywords": [
+    "icon-font",
+    "svg",
+    "font",
+    "webfont",
+    "plugin",
+    "font-generator"
+  ],
   "author": "Tilek",
-  "license": "ISC"
+  "license": "MIT"
 }
