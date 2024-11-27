@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "my-icons";
+  src: url('my-icons.eot?t=1732723739439'); /* IE9*/
+  src: url('my-icons.eot?t=1732723739439#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('my-icons.woff2?t=1732723739439') format('woff2'),
+  url('my-icons.woff?t=1732723739439') format('woff'),
+  url('my-icons.ttf?t=1732723739439') format('truetype'),
+  url('my-icons.svg?t=1732723739439') format('svg');
+}
+
+[class^="my-icons-"], [class*=" my-icons-"] {
+  font-family: 'my-icons' !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.my-icons-booksVertical:before { content: "\ea01"; }
+.my-icons-bubbleLeft:before { content: "\ea02"; }
+.my-icons-bug:before { content: "\ea03"; }
+.my-icons-calendarBadgeCheckmark:before { content: "\ea04"; }
+.my-icons-chevronDown:before { content: "\ea05"; }
+.my-icons-chevronLeft:before { content: "\ea06"; }
+.my-icons-chevronRight:before { content: "\ea07"; }
+.my-icons-chevronUp:before { content: "\ea08"; }
+.my-icons-docRichtext:before { content: "\ea09"; }
+.my-icons-globe:before { content: "\ea0a"; }
+.my-icons-hc:before { content: "\ea0b"; }
+.my-icons-holiverseSystem:before { content: "\ea0c"; }
+.my-icons-home:before { content: "\ea0d"; }
+.my-icons-link:before { content: "\ea0e"; }
+.my-icons-linkIcloud:before { content: "\ea0f"; }
+.my-icons-moneyCircle:before { content: "\ea10"; }
+.my-icons-newspaper:before { content: "\ea11"; }
+.my-icons-questionmarkCircle:before { content: "\ea12"; }
+.my-icons-royalty:before { content: "\ea13"; }
+.my-icons-search:before { content: "\ea14"; }
+.my-icons-setting:before { content: "\ea15"; }
+.my-icons-sidebarLeading:before { content: "\ea16"; }
+.my-icons-sparkles:before { content: "\ea17"; }
+.my-icons-sparklesRectangleStack:before { content: "\ea18"; }
+.my-icons-star:before { content: "\ea19"; }
+.my-icons-sunMin:before { content: "\ea1a"; }
+.my-icons-tactile:before { content: "\ea1b"; }
+.my-icons-xmark:before { content: "\ea1c"; }
+.my-icons-xmarkCircleFill:before { content: "\ea1d"; }
+
+
