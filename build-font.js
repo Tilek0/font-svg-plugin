@@ -11,3 +11,6 @@ svgtofont({
 }).catch((err) => {
     console.error('Font build failed:', err);
 });
+
+// node build-font.js
+
