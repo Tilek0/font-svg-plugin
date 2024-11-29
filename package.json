@@ -1,8 +1,8 @@
 {
   "name": "holiverse-icon-font-plugin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "scripts": {
-    "build:font": "node_modules/.bin/svgtofont --config svgtofont.config.js"
+    "build": "node build-font.js"
   },
   "main": "src/plugin.js",
   "type": "module",
@@ -12,7 +12,7 @@
   "files": [
     "dist/",
     "src/",
-    "svgtofont.config.js"
+    "build-font.js"
   ],
   "dependencies": {},
   "devDependencies": {

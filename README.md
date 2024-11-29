@@ -21,8 +21,7 @@ user.svg
 settings.svg
 
 * Запустите команду:
-svgtofont -s ./src/assets/icons -o ./dist/fonts --fontName my-icons --css
-потом node build-font.js
+yarn build
 После выполнения команды в папке dist/fonts появятся сгенерированные файлы:
 
 dist/
@@ -35,8 +34,7 @@ my-icons.ttf
 * Добавьте новые SVG-файлы:
 
 Если вам нужно добавить новые иконки, просто положите соответствующие SVG-файлы в папку icons/ и снова выполните команду
-svgtofont -s ./src/assets/icons -o ./dist/fonts --fontName my-icons --css
-потом node build-font.js
+yarn build
 
 * Использование плагина в проекте
 * Подготовьте файлы шрифтов:
@@ -80,8 +78,7 @@ app.mount('#app');
 
 Форматы шрифтов: Плагин генерирует файлы в форматах woff, woff2, и ttf. CSS-файл автоматически подключает их через @font-face.
 Добавление новых иконок: Чтобы добавить новую иконку, просто поместите SVG-файл в папку icons/ и выполните команду
-svgtofont -s ./src/assets/icons -o ./dist/fonts --fontName my-icons --css
-потом node build-font.js 
+yarn build
 для обновления шрифтов.
 Кастомизация: Вы можете изменить конфигурацию шрифтов, редактируя файл svgtofont.config.js.
 Лицензия
