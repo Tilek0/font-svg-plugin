@@ -1,11 +1,11 @@
 @font-face {
   font-family: "my-icons";
-  src: url('my-icons.eot?t=1732857351807'); /* IE9*/
-  src: url('my-icons.eot?t=1732857351807#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('my-icons.woff2?t=1732857351807') format('woff2'),
-  url('my-icons.woff?t=1732857351807') format('woff'),
-  url('my-icons.ttf?t=1732857351807') format('truetype'),
-  url('my-icons.svg?t=1732857351807') format('svg');
+  src: url('my-icons.eot?t=1732858626209'); /* IE9*/
+  src: url('my-icons.eot?t=1732858626209#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('my-icons.woff2?t=1732858626209') format('woff2'),
+  url('my-icons.woff?t=1732858626209') format('woff'),
+  url('my-icons.ttf?t=1732858626209') format('truetype'),
+  url('my-icons.svg?t=1732858626209') format('svg');
 }
 
 [class^="my-icons-"], [class*=" my-icons-"] {
@@ -26,50 +26,55 @@
 .my-icons-chevron-right:before { content: "\ea08"; }
 .my-icons-chevron-up:before { content: "\ea09"; }
 .my-icons-copy-line:before { content: "\ea0a"; }
-.my-icons-doc-rich-text:before { content: "\ea0b"; }
-.my-icons-dollar-sign-circle:before { content: "\ea0c"; }
-.my-icons-fill-arrow-triangle-2-circle:before { content: "\ea0d"; }
-.my-icons-fill-arrow-up-arrow-down-circle:before { content: "\ea0e"; }
-.my-icons-fill-exclamation-mark-triangle:before { content: "\ea0f"; }
-.my-icons-fill-lock:before { content: "\ea10"; }
-.my-icons-fill-photo:before { content: "\ea11"; }
-.my-icons-fill-shield-left-half:before { content: "\ea12"; }
-.my-icons-fill-star:before { content: "\ea13"; }
-.my-icons-fill-trash:before { content: "\ea14"; }
-.my-icons-globe:before { content: "\ea15"; }
-.my-icons-hc:before { content: "\ea16"; }
-.my-icons-holiverse-system:before { content: "\ea17"; }
-.my-icons-home:before { content: "\ea18"; }
-.my-icons-line-3-horizontal:before { content: "\ea19"; }
-.my-icons-line-elipsis:before { content: "\ea1a"; }
-.my-icons-line-exclamation-mark-triangle:before { content: "\ea1b"; }
-.my-icons-line-eye:before { content: "\ea1c"; }
-.my-icons-line-info-circle:before { content: "\ea1d"; }
-.my-icons-line-lock:before { content: "\ea1e"; }
-.my-icons-line-party-popper:before { content: "\ea1f"; }
-.my-icons-line-person-2:before { content: "\ea20"; }
-.my-icons-line-piper-clip:before { content: "\ea21"; }
-.my-icons-line-slider-horizontal-3:before { content: "\ea22"; }
-.my-icons-line-square-and-arrow-up:before { content: "\ea23"; }
-.my-icons-line-trash:before { content: "\ea24"; }
-.my-icons-link:before { content: "\ea25"; }
-.my-icons-linkIcloud:before { content: "\ea26"; }
-.my-icons-newspaper:before { content: "\ea27"; }
-.my-icons-plus:before { content: "\ea28"; }
-.my-icons-questionmark-circle:before { content: "\ea29"; }
-.my-icons-royalty:before { content: "\ea2a"; }
-.my-icons-search:before { content: "\ea2b"; }
-.my-icons-setting:before { content: "\ea2c"; }
-.my-icons-sidebar-leading:before { content: "\ea2d"; }
-.my-icons-sparkles-rectangle-stack:before { content: "\ea2e"; }
-.my-icons-sparkles:before { content: "\ea2f"; }
-.my-icons-square-grid-2x2-fill:before { content: "\ea30"; }
-.my-icons-star:before { content: "\ea31"; }
-.my-icons-sun-min:before { content: "\ea32"; }
-.my-icons-tactile:before { content: "\ea33"; }
-.my-icons-wallet:before { content: "\ea34"; }
-.my-icons-xmark-circle-fill:before { content: "\ea35"; }
-.my-icons-xmark:before { content: "\ea36"; }
+.my-icons-discord:before { content: "\ea0b"; }
+.my-icons-doc-rich-text:before { content: "\ea0c"; }
+.my-icons-dollar-sign-circle:before { content: "\ea0d"; }
+.my-icons-fill-arrow-triangle-2-circle:before { content: "\ea0e"; }
+.my-icons-fill-arrow-up-arrow-down-circle:before { content: "\ea0f"; }
+.my-icons-fill-exclamation-mark-triangle:before { content: "\ea10"; }
+.my-icons-fill-lock:before { content: "\ea11"; }
+.my-icons-fill-photo:before { content: "\ea12"; }
+.my-icons-fill-shield-left-half:before { content: "\ea13"; }
+.my-icons-fill-star:before { content: "\ea14"; }
+.my-icons-fill-trash:before { content: "\ea15"; }
+.my-icons-globe:before { content: "\ea16"; }
+.my-icons-hc:before { content: "\ea17"; }
+.my-icons-holiverse-system:before { content: "\ea18"; }
+.my-icons-home:before { content: "\ea19"; }
+.my-icons-instagram:before { content: "\ea1a"; }
+.my-icons-line-3-horizontal:before { content: "\ea1b"; }
+.my-icons-line-elipsis:before { content: "\ea1c"; }
+.my-icons-line-exclamation-mark-triangle:before { content: "\ea1d"; }
+.my-icons-line-eye:before { content: "\ea1e"; }
+.my-icons-line-info-circle:before { content: "\ea1f"; }
+.my-icons-line-lock:before { content: "\ea20"; }
+.my-icons-line-party-popper:before { content: "\ea21"; }
+.my-icons-line-person-2:before { content: "\ea22"; }
+.my-icons-line-piper-clip:before { content: "\ea23"; }
+.my-icons-line-slider-horizontal-3:before { content: "\ea24"; }
+.my-icons-line-square-and-arrow-up:before { content: "\ea25"; }
+.my-icons-line-trash:before { content: "\ea26"; }
+.my-icons-link:before { content: "\ea27"; }
+.my-icons-linkIcloud:before { content: "\ea28"; }
+.my-icons-newspaper:before { content: "\ea29"; }
+.my-icons-plus:before { content: "\ea2a"; }
+.my-icons-questionmark-circle:before { content: "\ea2b"; }
+.my-icons-royalty:before { content: "\ea2c"; }
+.my-icons-search:before { content: "\ea2d"; }
+.my-icons-setting:before { content: "\ea2e"; }
+.my-icons-sidebar-leading:before { content: "\ea2f"; }
+.my-icons-sparkles-rectangle-stack:before { content: "\ea30"; }
+.my-icons-sparkles:before { content: "\ea31"; }
+.my-icons-square-grid-2x2-fill:before { content: "\ea32"; }
+.my-icons-star:before { content: "\ea33"; }
+.my-icons-sun-min:before { content: "\ea34"; }
+.my-icons-tactile:before { content: "\ea35"; }
+.my-icons-telegram:before { content: "\ea36"; }
+.my-icons-twitter:before { content: "\ea37"; }
+.my-icons-wallet:before { content: "\ea38"; }
+.my-icons-xmark-circle-fill:before { content: "\ea39"; }
+.my-icons-xmark:before { content: "\ea3a"; }
+.my-icons-youtube:before { content: "\ea3b"; }
 
 
 $my-icons-bell-line: '\ea01';
@@ -82,47 +87,52 @@ $my-icons-chevron-left: '\ea07';
 $my-icons-chevron-right: '\ea08';
 $my-icons-chevron-up: '\ea09';
 $my-icons-copy-line: '\ea0a';
-$my-icons-doc-rich-text: '\ea0b';
-$my-icons-dollar-sign-circle: '\ea0c';
-$my-icons-fill-arrow-triangle-2-circle: '\ea0d';
-$my-icons-fill-arrow-up-arrow-down-circle: '\ea0e';
-$my-icons-fill-exclamation-mark-triangle: '\ea0f';
-$my-icons-fill-lock: '\ea10';
-$my-icons-fill-photo: '\ea11';
-$my-icons-fill-shield-left-half: '\ea12';
-$my-icons-fill-star: '\ea13';
-$my-icons-fill-trash: '\ea14';
-$my-icons-globe: '\ea15';
-$my-icons-hc: '\ea16';
-$my-icons-holiverse-system: '\ea17';
-$my-icons-home: '\ea18';
-$my-icons-line-3-horizontal: '\ea19';
-$my-icons-line-elipsis: '\ea1a';
-$my-icons-line-exclamation-mark-triangle: '\ea1b';
-$my-icons-line-eye: '\ea1c';
-$my-icons-line-info-circle: '\ea1d';
-$my-icons-line-lock: '\ea1e';
-$my-icons-line-party-popper: '\ea1f';
-$my-icons-line-person-2: '\ea20';
-$my-icons-line-piper-clip: '\ea21';
-$my-icons-line-slider-horizontal-3: '\ea22';
-$my-icons-line-square-and-arrow-up: '\ea23';
-$my-icons-line-trash: '\ea24';
-$my-icons-link: '\ea25';
-$my-icons-linkIcloud: '\ea26';
-$my-icons-newspaper: '\ea27';
-$my-icons-plus: '\ea28';
-$my-icons-questionmark-circle: '\ea29';
-$my-icons-royalty: '\ea2a';
-$my-icons-search: '\ea2b';
-$my-icons-setting: '\ea2c';
-$my-icons-sidebar-leading: '\ea2d';
-$my-icons-sparkles-rectangle-stack: '\ea2e';
-$my-icons-sparkles: '\ea2f';
-$my-icons-square-grid-2x2-fill: '\ea30';
-$my-icons-star: '\ea31';
-$my-icons-sun-min: '\ea32';
-$my-icons-tactile: '\ea33';
-$my-icons-wallet: '\ea34';
-$my-icons-xmark-circle-fill: '\ea35';
-$my-icons-xmark: '\ea36';
+$my-icons-discord: '\ea0b';
+$my-icons-doc-rich-text: '\ea0c';
+$my-icons-dollar-sign-circle: '\ea0d';
+$my-icons-fill-arrow-triangle-2-circle: '\ea0e';
+$my-icons-fill-arrow-up-arrow-down-circle: '\ea0f';
+$my-icons-fill-exclamation-mark-triangle: '\ea10';
+$my-icons-fill-lock: '\ea11';
+$my-icons-fill-photo: '\ea12';
+$my-icons-fill-shield-left-half: '\ea13';
+$my-icons-fill-star: '\ea14';
+$my-icons-fill-trash: '\ea15';
+$my-icons-globe: '\ea16';
+$my-icons-hc: '\ea17';
+$my-icons-holiverse-system: '\ea18';
+$my-icons-home: '\ea19';
+$my-icons-instagram: '\ea1a';
+$my-icons-line-3-horizontal: '\ea1b';
+$my-icons-line-elipsis: '\ea1c';
+$my-icons-line-exclamation-mark-triangle: '\ea1d';
+$my-icons-line-eye: '\ea1e';
+$my-icons-line-info-circle: '\ea1f';
+$my-icons-line-lock: '\ea20';
+$my-icons-line-party-popper: '\ea21';
+$my-icons-line-person-2: '\ea22';
+$my-icons-line-piper-clip: '\ea23';
+$my-icons-line-slider-horizontal-3: '\ea24';
+$my-icons-line-square-and-arrow-up: '\ea25';
+$my-icons-line-trash: '\ea26';
+$my-icons-link: '\ea27';
+$my-icons-linkIcloud: '\ea28';
+$my-icons-newspaper: '\ea29';
+$my-icons-plus: '\ea2a';
+$my-icons-questionmark-circle: '\ea2b';
+$my-icons-royalty: '\ea2c';
+$my-icons-search: '\ea2d';
+$my-icons-setting: '\ea2e';
+$my-icons-sidebar-leading: '\ea2f';
+$my-icons-sparkles-rectangle-stack: '\ea30';
+$my-icons-sparkles: '\ea31';
+$my-icons-square-grid-2x2-fill: '\ea32';
+$my-icons-star: '\ea33';
+$my-icons-sun-min: '\ea34';
+$my-icons-tactile: '\ea35';
+$my-icons-telegram: '\ea36';
+$my-icons-twitter: '\ea37';
+$my-icons-wallet: '\ea38';
+$my-icons-xmark-circle-fill: '\ea39';
+$my-icons-xmark: '\ea3a';
+$my-icons-youtube: '\ea3b';
